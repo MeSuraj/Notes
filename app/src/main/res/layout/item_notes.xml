@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/border_rectangle"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="5dp"
+    android:layout_height="wrap_content">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp">
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_margin="7dp"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/notesTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:fontFamily="@font/product_sans_regular"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/notesData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_regular"
+                android:padding="5dp"
+                android:ellipsize="end"
+                android:maxLines="10"
+                android:textSize="12sp"
+                android:text="@string/note"/>
+
+            <TextView
+                android:id="@+id/notesDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_regular"
+                android:padding="5dp"
+                android:text="28 Jun 2022"
+                android:textSize="10sp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"
+                android:layout_gravity="bottom"
+                android:id="@+id/notesPriority"
+                android:background="@drawable/green_shape" />
+
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+</LinearLayout>

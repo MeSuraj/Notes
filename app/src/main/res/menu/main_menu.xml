@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/share_app"
+        android:title="@string/share_app"
+        android:icon="@drawable/ic_share" />
+
+    <item
+        android:id="@+id/privacyPolicy"
+        android:title="@string/privacy"
+        android:icon="@drawable/ic_privacy"/>
+
+    <item android:id="@+id/contactUs"
+        android:title="@string/contact"
+        android:checked="false"
+        android:icon="@drawable/ic_contact"/>
+    <item
+        android:id="@+id/night_mode"
+        android:icon="@drawable/ic_night_mode"
+        android:title="Night Mode"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/day_mode"
+        android:icon="@drawable/ic_day_mode"
+        android:visible="false"
+        android:title="Day Mode"
+        app:showAsAction="ifRoom|collapseActionView" />
+</menu>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Notes!</string>
+
+<!--    Splash-->
+    <string name="splash_text">Notes!</string>
+
+     <!-- Menu-->
+    <string name="search_hint">Search...</string>
+    <string name="share_app">Share This App</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="contact">Contact Us</string>
+
+     <!-- Notes-->
+    <string name="title">Title...</string>
+    <string name="subtitle">Subtitle...</string>
+    <string name="note">Note...</string>
+    <string name="filter">Note Filtered</string>
+    <string name="ascending">Low -> High</string>
+    <string name="descending">High -> Low</string>
+
+<!--    Delete Dialog-->
+    <string name="delete_dialog">Are You Sure You Want To Delete ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="ContactUsMailId">thanksforcontactus@gmail.com</string>
+
+<!--    GAds Id On Update Notes Activity On Back Press-->
+    <string name="GAds_ApplicationId">ca-app-pub-6468177929094979~6362374891</string>
+    <string name="MainView_BackPress_IntAds">ca-app-pub-6468177929094979/8716526755</string>
+
+</resources>
